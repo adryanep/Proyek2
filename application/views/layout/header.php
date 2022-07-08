@@ -1,7 +1,7 @@
 <?php
 if (!$this->session->has_userdata('USERNAME')) {
-  // dipaksa ke home
-  redirect(base_url() . 'home');
+    // dipaksa ke home
+    redirect(base_url() . 'home');
 }
 ?>
 <!DOCTYPE html>
@@ -47,8 +47,8 @@ if (!$this->session->has_userdata('USERNAME')) {
     </script>
     <!-- Preloader -->
     <div class="preloader flex-column justify-content-center align-items-center">
-        <img class="animation__wobble img-circle" src="<?= base_url() ?>public/dist/img/rafii-user.jpg"
-            alt="RafiiYuukiLogo" height="60" width="60">
+        <img class="animation__wobble img-circle" src="<?= base_url() ?>public/dist/img/rafii-user.jpg" alt=""
+            height="60" width="60">
     </div>
 
     <!-- Site wrapper -->

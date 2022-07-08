@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Rafii-Yuuki | Home</title>
+    <title>UMKM-DEPOK | Home</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -37,7 +37,7 @@
         <div class="hero-container">
             <a href="index.html" class="hero-logo" data-aos="zoom-in"><img
                     src="<?= base_url() ?>public/dist/img/logo-STT-NF-1-removebg-preview.png" alt="" width="50%"></a>
-            <h1 data-aos="zoom-in">Welcome To Nurul Fikri Home Page</h1>
+            <h1 data-aos="zoom-in">Welcome To UMKM - DEPOK Homepage</h1>
             <h2 data-aos="fade-up">We are team of talented designers making websites with Bootstrap</h2>
             <a data-aos="fade-up" data-aos-delay="200" href="#Produk" class="btn-get-started scrollto">Get Started</a>
         </div>
@@ -90,7 +90,6 @@
                                     <th style="vertical-align: middle;">Kode</th>
                                     <th style="vertical-align: middle;">Nama</th>
                                     <th style="vertical-align: middle;">Stok</th>
-                                    <th style="vertical-align: middle;">Foto</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -101,7 +100,6 @@
                                     <td style="vertical-align: middle;"><?= $mhs->kode ?></td>
                                     <td style="vertical-align: middle; text-align:left;"><?= ucwords($mhs->nama) ?></td>
                                     <td class="text-center" style="vertical-align: middle;"><?= $mhs->stok ?></td>
-                                    <td style="vertical-align: middle;"><?= $mhs->foto ?></td>
                                 </tr>
                                 <?php endforeach ?>
                             </tbody>

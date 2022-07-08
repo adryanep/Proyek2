@@ -69,7 +69,7 @@
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link">
-                          <i class="nav-icon fa-solid fa-user-graduate"></i>
+                          <i class="nav-icon fa-solid fa-box"></i>
                           <p>
                               Produk
                               <i class="fas fa-angle-left right"></i>
@@ -111,7 +111,7 @@
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link">
-                          <i class="nav-icon fa-solid fa-user-graduate"></i>
+                          <i class="nav-icon fa-solid fa-user"></i>
                           <p>
                               users
                               <i class="fas fa-angle-left right"></i>
@@ -136,7 +136,7 @@
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link">
-                          <i class="nav-icon fa-solid fa-computer"></i>
+                          <i class="nav-icon fa-solid fa-user"></i>
                           <p>
                               Data Suplier
                               <i class="fas fa-angle-left right"></i>
@@ -147,23 +147,6 @@
                               <a href="<?= base_url() ?>suplier/index" class="nav-link">
                                   <i class="far fa-solid fa-database nav-icon text-info"></i>
                                   <p>Suplier</p>
-                              </a>
-                          </li>
-                      </ul>
-                  </li>
-                  <li class="nav-item">
-                      <a href="#" class="nav-link">
-                          <i class="nav-icon fa-solid fa-graduation-cap"></i>
-                          <p>
-                              Dosen
-                              <i class="fas fa-angle-left right"></i>
-                          </p>
-                      </a>
-                      <ul class="nav nav-treeview">
-                          <li class="nav-item">
-                              <a href="<?= base_url() ?>dosen/index" class="nav-link">
-                                  <i class="far fa-solid fa-database nav-icon text-info"></i>
-                                  <p>Dosen</p>
                               </a>
                           </li>
                       </ul>
@@ -182,16 +165,6 @@
                                   <i class="nav-icon fa-brands fa-github"></i>
                                   <p>
                                       GitHub
-                                  </p>
-                              </a>
-                          </li>
-                      </ul>
-                      <ul class="nav nav-treeview">
-                          <li class="nav-item">
-                              <a href="https://www.linkedin.com/in/sulthan-raghib-fillah-3a9973173/" class="nav-link">
-                                  <i class="nav-icon fa-brands fa-linkedin"></i>
-                                  <p>
-                                      Linkedin
                                   </p>
                               </a>
                           </li>
